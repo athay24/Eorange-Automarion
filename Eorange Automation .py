@@ -16,11 +16,11 @@ from datetime import datetime
 
 product = 'Discover Disc 125'
 
+password = input("Mail Password")
+
 #sending email function
 def send_email():
     port = 465  # For SSL
-    password = input("Mail Password")
-    
     # Create a secure SSL context
     context = ssl.create_default_context()
     
